@@ -1,0 +1,9 @@
+footer > i {
+	margin: 12px;
+}
+
+footer{
+background-color: #1A1B21;
+display: flex;
+justify-content: center;
+}

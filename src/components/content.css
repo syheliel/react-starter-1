@@ -1,0 +1,145 @@
+.describe-title{
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #F5F5F5;
+margin: 0px;
+}
+
+.describe-content{
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+margin-top:5px;
+margin-bottom: 25px;
+/* or 15px */
+
+
+color: #DCDCDC;
+
+	text-align: justify;
+}
+.main-content{
+	background-color: #1A1B21;
+	margin-bottom: 0;
+	width: 337px;
+}
+.profile-img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.main-describe{
+	margin: 25px;
+	margin-top: 0;
+
+}
+
+.info{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.info > * {
+	margin: 0;
+}
+.info > h1{
+	margin-top: 21px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;	color: white;
+	font-size: 25px;
+}
+
+.info > h2{
+margin-top: 6.1px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+	color: #F3BF99;
+	font-size: 12.8px;
+}
+
+.info > h3{
+	margin: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #F5F5F5;	color: #F5F5F5;
+	font-size: 10.24px;
+}
+
+.button-panel{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.button-panel > div{
+	margin: 9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px ;
+/* shadow/sm */
+width: 115px;
+height: 34px;
+	border-radius: 6px;
+}
+
+.button-email {
+	background-color: white;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
+.button-linkedin{
+	background: #5093E2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border-color: #5093e2;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.describe{
+	margin-top:30px;
+}
